@@ -1,0 +1,19 @@
+
+{
+  "name": "aiverse",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "services/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=web",
+    "build": "npm run build --workspace=web",
+    "lint": "npm run lint --workspace=web"
+  },
+  "keywords": [],
+  "author": "yash ahuja",
+  "license": "MIT",
+  "description": "One platform. Every AI tool you'll ever need. Imagine iLovePDF, but instead of PDF utilities, it's a collection of high-quality AI-powered tools organized into categories."
+}
